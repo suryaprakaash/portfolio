@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #5aabf3);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: linear-gradient(135deg,  #667eea, #764ba2);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.4em;
+    font-weight: 300;
+  }
+  
+  #theme-toggle {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    transition: background 0.3s;
+  }
+  
+  #theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    color: #444;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #667eea;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    color: #f4f4f4;
+  }
+  
+  body.dark-mode header {
+    background: linear-gradient(135deg, #434343, #000000);
+  }
+  
+  body.dark-mode h2 {
+    color: #f4f4f4;
+    border-bottom-color: #667eea;
+  }
+  
+  body.dark-mode h3 {
+    color: #a8a8a8;
+  }
+  
+  body.dark-mode ul li {
+    background: rgba(0, 0, 0, 0.2);
+    color: #f4f4f4;
+  }
+  
+  body.dark-mode footer {
+    background: linear-gradient(135deg, #434343, #000000);
+  }
